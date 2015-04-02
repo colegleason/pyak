@@ -135,7 +135,7 @@ class Yak:
         print "%s likes, %s comments. posted %s at %s %s" % (self.likes, self.comments, self.time, self.latitude, self.longitude)
 
 class Yakker:
-    base_url = "http://yikyakapp.com/api/"
+    base_url = "https://us-central-api.yikyakapi.net/api/"
     user_agent = "android-async-http/1.4.4 (http://loopj.com/android-async-http)"
     
     def __init__(self, user_id=None, location=None, force_register=False):
